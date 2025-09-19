@@ -15,7 +15,6 @@ import {
 } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from "@/components";
 import { baseURL, effects, fonts, style, dataStyle, home } from "@/resources";
-import GoogleAdsense from "@/components/google-adsense";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -166,7 +165,6 @@ export default async function RootLayout({
           <Footer />
         </Column>
       </Providers>
-      <GoogleAdsense pId={"7528646675654060"} />
     </Flex>
   );
 }
