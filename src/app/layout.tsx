@@ -166,7 +166,7 @@ export default async function RootLayout({
           <Footer />
         </Column>
       </Providers>
-      <GoogleAdsense pId={"ca-pub-7528646675654060"} />
+      <GoogleAdsense pId={"7528646675654060"} />
     </Flex>
   );
 }
